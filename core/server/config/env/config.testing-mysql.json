@@ -1,12 +1,12 @@
 {
-    "url": "http://127.0.0.1:2369",
+    "url": "http://0.0.0.0:"+process.env.PORT,
     "server": {
-        "port": 2369
+        "port": process.env.PORT
     },
     "database": {
         "client": "mysql",
         "connection": {
-            "host"     : "127.0.0.1",
+            "host"     : "0.0.0.0",
             "user"     : "root",
             "password" : "",
             "database" : "ghost_testing"
