@@ -1,1 +1,1 @@
-export server__port=\$PORT npm start
+export server__port=process.env.PORT npm start
