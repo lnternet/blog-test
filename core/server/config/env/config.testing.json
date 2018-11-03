@@ -1,5 +1,5 @@
 {
-    "url": "http://0.0.0.0:"+process.env.PORT,
+    "url": "http://0.0.0.0",
     "database": {
         "client": "sqlite3",
         "connection": {
