@@ -1,11 +1,12 @@
 {
     "database": {
-        "client": "mysql",
+        "client": "postgres",
         "connection": {
-            "host"     : "127.0.0.1",
-            "user"     : "root",
-            "password" : "",
-            "database" : "ghost"
+            "host"     : "ec2-54-228-181-43.eu-west-1.compute.amazonaws.com",
+            "user"     : "xewxnebjpzawnw",
+            "password" : "81002fede950b8fd133468d6dcae6e29de18d01f71570565f996a7d58553a787",
+            "database" : "d148hctl9eej28",
+            "port"     : "5432"
         }
     },
     "paths": {
