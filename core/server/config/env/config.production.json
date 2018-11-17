@@ -1,12 +1,11 @@
 {
     "database": {
-        "client": "postgres",
+        "client": "mysql",
         "connection": {
-            "host"     : "ec2-54-228-181-43.eu-west-1.compute.amazonaws.com",
-            "user"     : "xewxnebjpzawnw",
-            "password" : "81002fede950b8fd133468d6dcae6e29de18d01f71570565f996a7d58553a787",
-            "database" : "d148hctl9eej28",
-            "port"     : "5432"
+            "host"     : "eu-cdbr-west-02.cleardb.ne",
+            "user"     : "b6738f378a83bf",
+            "password" : "335e3984",
+            "database" : "heroku_bf3d820ba9a379e"
         }
     },
     "paths": {
