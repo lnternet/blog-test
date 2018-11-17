@@ -28,8 +28,7 @@ _private.loadNconf = function loadNconf(options) {
      * env arguments
      */
     nconf.env({
-        separator: '__',
-        parseValues: true
+        separator: '__'
     });
 
     nconf.file('custom-env', path.join(customConfigPath, 'config.' + env + '.json'));
