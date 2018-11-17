@@ -2,10 +2,10 @@
     "database": {
         "client": "mysql",
         "connection": {
-            "host"     : "eu-cdbr-west-02.cleardb.ne",
-            "user"     : "b6738f378a83bf",
-            "password" : "335e3984",
-            "database" : "heroku_bf3d820ba9a379e"
+            "host"     : "127.0.0.1",
+            "user"     : "root",
+            "password" : "",
+            "database" : "ghost"
         }
     },
     "paths": {
